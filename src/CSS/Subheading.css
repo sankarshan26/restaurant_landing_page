@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&family=EB+Garamond:ital,wght@1,800&family=Poppins&display=swap');
+
+.subheading_container{
+    width: fit-content;
+    /* text-align: center; */
+    text-transform: capitalize;
+}
+
+.title_para{
+    letter-spacing: 0.04em;
+    font-family: 'Cormorant Upright', serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+}
+
+.spoon-img{
+    width: 45px;
+}
+@media screen and (max-width: 400px){
+    .title_para{
+        font-size: 20px;
+    }
+}

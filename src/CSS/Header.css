@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+.Header_container{
+    background-color: #0C0C0C;
+    height: fit-content;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:  2rem 4rem;
+    padding-top: 4rem;
+}
+
+.left_{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.right_{
+    padding: 0rem 2rem;
+}
+
+.img-right{
+    width: 500px;
+    min-width: 50%;
+}
+.heading1{
+    font-family:'Cormorant Upright', serif;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #DCCA87;
+    padding: 1rem 0rem;
+    display: flex;
+}
+
+.cont{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding-bottom: 1rem ;
+}
+.Explore{
+    background-color: var(--color-crimson);
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width:2000px){
+    .Header_container{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 1175px){
+    .Header_container{
+        flex-wrap: wrap;
+    }
+    .right_{
+        text-align: center;
+    }
+    .img-right{
+        width: 70%;
+    }
+    .heading1{
+        font-size: 70px; 
+    }
+}
+
+@media screen and (max-width : 650px){
+    .Header_container{
+        padding:  2rem ;
+        justify-content: center;
+    }
+    .heading1{
+        justify-content: center;
+    }
+    .img-right{
+        width: 100%;
+    }
+
+}
